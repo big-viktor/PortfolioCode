@@ -64,11 +64,50 @@
   font-size: 14px;
   line-height: 21px;
   text-align: center;
-  color: #21243D;
+  color: #000000;
+}
+
+.content_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.folder {
+  padding-right: 40px;
+}
+
+.folder {
+  width: 126px;
+}
+
+.text_foto {
+  color: brown;
+}
+
+body {
+  background: #272727;
 }
 
 .wraper {
+  padding-top: 100px;
+  width: 856px;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+._container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,0 +1,22 @@
+@import "header.scss";
+@import "footer.scss";
+@import "projectFolders.scss";
+@import "workDetail.scss";
+@import "resume.scss";
+
+body{
+    background: #272727;
+}
+.wraper{
+    padding-top: 100px;
+    width: 856px;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+._container{
+    display: flex;
+    flex-direction: column;
+}
